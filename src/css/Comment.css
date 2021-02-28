@@ -1,0 +1,43 @@
+.comment {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.comment__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Comment Header User */
+.comment__headerUser {
+    display: flex;
+    align-items: center;
+}
+
+.comment__avatar {
+    height: 32px !important;
+    width: 32px !important;
+    font-size: 15px !important;
+    background-color: var(--light-yellowish-golden) !important;
+    color: var(--dark-golden) !important;
+}
+
+.comment__headerUser > p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark-golden);
+}
+
+/* Comment Timestamp */
+.comment__timestamp {
+    font-size: 14px;
+    color: var(--grayish-golden);
+}
+
+/* Comment Text */
+.comment__text {
+    margin-left: 42px;
+    font-size: 15px;
+}

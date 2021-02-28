@@ -1,0 +1,11 @@
+.textEditor {
+    margin: 12px 0;
+    border: 1px solid var(--light-grayish-blue);
+    border-radius: 5px;
+}
+
+.textEditor__editor {
+    padding: 0 10px;
+    font-size: 16px;
+    color: var(--blackish-blue);
+}

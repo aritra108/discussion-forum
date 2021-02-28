@@ -1,0 +1,44 @@
+.login {
+    width: 90vw;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.login__logo {
+    margin: 10px 0;
+}
+
+/* Login Form */
+.login__formContainer input {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.login__formContainer input::placeholder {
+    font-size: 17px;
+}
+
+.login__formContainer button {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.login__loginForm {
+    display: none;
+}
+
+.login__loginForm.expand {
+    display: block;
+}
+
+/* Login Toggle */
+.login__toggle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login__toggle span {
+    color: var(--light-blue);
+    cursor: pointer;
+}

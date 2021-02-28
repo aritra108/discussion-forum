@@ -1,0 +1,137 @@
+.answer {
+    margin-top: 15px;
+}
+
+/* Answer Title */
+.answer__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer__titleCredentials {
+    display: flex;
+    align-items: center;
+}
+
+.answer__titleCredentialsDetails {
+    margin-left: 8px;
+    line-height: 0.9;
+}
+
+.answer__titleCredentialsDetails > p {
+    font-size: 15px;
+    line-height: 1;
+    color: var(--dark-blue);
+}
+
+.answer__titleCredentialsDetails > small {
+    font-size: 13px;
+    color: var(--primary-blue);
+}
+
+.answer__titleTimestamp {
+    font-size: 12px;
+    color: var(--grayish-blue);
+}
+
+/* Answer HTML */
+.answer__html * {
+    margin-top: 15px !important;
+    font-size: 17px !important;
+    color: var(--blackish-blue) !important;
+    background-color: white !important;
+}
+
+.answer__html p {
+    line-height: 1.5 !important;
+}
+
+.answer__html li {
+    padding-left: 7px !important;
+}
+
+/* Answer divider */
+.answer .divider {
+    margin-top: 6px;
+}
+
+/* Answer Comments */
+.answer__comments {
+    margin-top: 20px;
+}
+
+.answer__comments > h3 {
+    color: var(--golden);
+}
+
+/* Answer Add Comment */
+.answer__addComment {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.answer__addCommentAvatar {
+    height: 32px !important;
+    width: 32px !important;
+    background-color: var(--chocolate-brown) !important;
+    font-size: 15px !important;
+    color: var(--golden) !important;
+}
+
+.answer__addComment > form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.answer__addComment > form > input {
+    flex: 1;
+    margin: 0 10px;
+    border-bottom: 1px solid var(--grayish-golden);
+    font-size: 16px;
+    color: var(--chocolate-brown);
+}
+
+.answer__addComment > form > input::placeholder {
+    color: var(--grayish-golden);
+    font-size: 15px;
+}
+
+.answer__addComment > form > input:focus {
+    border-bottom: 2px solid var(--golden);
+}
+
+.answer__addComment > form > input:focus::placeholder {
+    color: var(--dark-golden);
+}
+
+.answer__addCommentSend {
+    cursor: pointer;
+    color: var(--chocolate-brown);
+}
+
+.answer__addCommentSend:hover {
+    transition: all 100ms ease-in;
+    color: var(--golden);
+}
+
+/* Answer View Comments */
+.answer__viewComments {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.answer__viewComments h5 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--grayish-golden);
+    cursor: pointer;
+}
+
+.answer__viewComments h5:hover {
+    text-decoration: underline;
+}

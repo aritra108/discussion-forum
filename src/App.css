@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/* Logo */
+.logo {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--primary-blue);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Button */
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 7px 14px;
+    border: none;
+    outline: none;
+    background-color: var(--light-blue);
+    color: var(--whitish-blue);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 100ms ease-in;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+    background-color: var(--sky-blue);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:active {
+    transform: scale(0.95);
 }
 
-.App-link {
-  color: #61dafb;
+/* Input Field */
+input {
+    width: 100%;
+    padding: 2px 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid var(--light-grayish-blue);
+    outline: none;
+    color: var(--dark-blue);
+    transition: all 100ms ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input::placeholder {
+    color: var(--light-grayish-blue);
+    font-size: 14px;
+}
+
+input:focus {
+    border-bottom: 2px solid var(--primary-blue);
+}
+
+input:focus::placeholder {
+    color: var(--grayish-blue);
+}
+
+/* Avatar */
+.avatar {
+    background-color: var(--faded-blue) !important;
+    color: var(--dark-grayish-blue) !important;
+}
+
+/* Divider */
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--light-grayish-blue);
+}
+
+/* HTML Content */
+.htmlContent {
+    margin-top: 0px !important;
+}
+
+.htmlContent * {
+    font-family: var(--primary-font) !important;
+    font-size: 16px !important;
+}
+
+.htmlContent em {
+    font-style: italic;
+    font-weight: 500 !important;
+}
+
+.htmlContent img {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 15px !important;
+    object-fit: contain;
+}
+
+.htmlContent > ul,
+.htmlContent > ol {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.htmlContent li {
+    margin-top: 5px;
+}
+
+.htmlContent > p {
+    margin-top: 10px;
+    line-height: 1.4;
 }

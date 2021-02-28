@@ -1,0 +1,17 @@
+.forumPage {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 470px) {
+    .forumPage {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .forumPage {
+        padding: 8px;
+    }
+}
